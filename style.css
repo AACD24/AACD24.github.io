@@ -151,3 +151,73 @@ ul.topnav li.right {
         float: none;
     }
 }
+
+.program-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+}
+
+.program-row {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    padding: 15px 10px;
+}
+
+.program-row:last-child {
+    border-bottom: none;
+}
+
+.program-time {
+    flex: 0 0 180px;
+    font-weight: bold;
+    padding-right: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.program-content {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.program-content strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.program-content em {
+    font-style: italic;
+    color: #666;
+}
+
+.time-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    padding: 15px 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.keynote-speaker {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.keynote-speaker h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.keynote-speaker h4 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.keynote-speaker p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
